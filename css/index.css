@@ -1,0 +1,53 @@
+/* 所有颜色都调用这这里的颜色，可以全局自动替换 */
+:root {
+    /* 主题色名称：江湖路远 */
+    /* 透明颜色 */
+    --Tcolor: #eaede100;
+    /* body颜色 */
+    --BODYcolor: var(--Acolor);
+    /* 主题颜色 */
+    --Acolor: #e5eff1;
+    /* 头部颜色 */
+    --Bcolor: #cce0df;
+    /* 分隔、标题颜色 */
+    --Ccolor: #9ab1a5;
+    /* 符号颜色 */
+    --Dcolor: #7aa091;
+    /* 文字颜色 */
+    --E1color: #6C7875;
+    /* 文字颜色 */
+    --Ecolor: hsl(165, 5%, 20%);
+}
+
+.Acolor {
+    /* 主题颜色 */
+    background-color: var(--Acolor);
+}
+
+.Bcolor {
+    /* 头部颜色 */
+    background-color: var(--Bcolor);
+}
+
+.Ccolor {
+    /* 分隔、标题颜色 */
+    background-color: var(--Ccolor);
+}
+
+.Dcolor {
+    /* 符号颜色 */
+    background-color: var(--Dcolor);
+}
+
+.Ecolor {
+    /* 文字颜色 */
+    background-color: var(--Ecolor);
+}
+
+.sizecolor {
+    /* 文字/符号颜色*/
+    color: var(--Ecolor);
+    /* 微软雅黑 */
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+
+}
